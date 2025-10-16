@@ -1,45 +1,166 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Halaman</title>
-    <style>
-        /* CSS untuk meniru tampilan header di gambar */
-        .header-container {
-            background-color: #2c3e50 ; /* Warna biru gelap */
-            color: white; /* Warna teks putih */
-            text-align: center;
-            padding: 30px 20px;
-            font-family: Arial, sans-serif;
-        }
-
-        .main-title {
-            font-size: 2.5em; /* Ukuran teks utama yang besar */
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        .subtitle {
-            font-size: 1.2em; /* Ukuran teks subjudul */
-            font-weight: normal;
-            margin-top: 0;
-        }
-
-        /* Gaya untuk ikon/emoji */
-        .subtitle span {
-            margin: 0 5px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 </head>
+<style>
+      body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background: url('https://exampllee.vercel.app/assets/F15.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #222;
+    }
+      body {
+        background-image: url(https://exampllee.vercel.app/assets/F15.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #ffffff;
+        text-align: center;
+        padding: 8px;
+      }
+      th {
+        background-color: #0539a0;
+        color: white;
+      }
+      footer {
+        text-align: center;
+        background-color: #1a2b4c;
+        color: white;
+        padding: 15px 0;
+        margin-top: 30px;
+      }
+    </style>
 <body>
+  <div style="background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url(https://exampllee.vercel.app/assets/F15.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(250, 253, 255);
+    padding: auto; 
+    text-align: center;
+    border-radius: 10px;">
 
-    <div class="header-container">
-        <h1 class="main-title">Mahasiswa Sistem Informasi</h1>
-        <p class="subtitle">
-            Jago IT <span>💻</span> • Suka Koding • Berkarakter <span>🌱</span>
-        </p>
+      <h1 style="margin: 0;">
+         BELAJAR NGODADING 
+      </h1>
+      <hr>
+      <p style="font-size: 15px; padding-bottom: 20px;margin-top: 8px;">
+        Jago IT 💻 - Omaygoat 😋- Berkarakter 🎭
+      </p>
     </div>
+    
+  <div style="background-image: linear-gradient(rgba(252,255, 255, 0.7));
+    text-align: left;border-radius:20px;margin:20px; padding: 20px;">
+   <h2 style="margin: 0;color: rgba(255, 255, 255, 0.7);border-left:5px solid #ff00ea">📷 HTML Image</h2>
+   <p style="margin: 0; color: rgb(255, 255, 255);margin-top: 10px; padding:20px">
+          Tag <code>&lt;img&gt;</code> digunakan untuk menampilkan gambar -
+          dijadikan tautan. Contohnya:</p>
+          <a href="https://w3schools.com">
+            <img src="https://exampllee.vercel.app/assets/F10.jpg" style="width: :100%; max-width:250px; border-radius: 10px;" alt="W3Schools.com" />
+          </a>
+          <p class="image-caption">Contoh gambar animasi (GIF).</p>
 
+    <img src="https://exampllee.vercel.app/assets/G05.gif" alt="Contoh gambar animasi (GIF)" style="width:250px; border-radius:20px">
+    <p class="image-caption">.</p>
+
+
+   <p class="image-caption">berikut contoh penerapan &lt;picture&gt; element </p>
+   <hr>
+            <img src="https://exampllee.vercel.app/assets/F04.jpg" style="width:250px ; border-radius:20px">
+            </div>
+            <div style="background-image: linear-gradient(rgba(252,255, 255, 0.7));
+    text-align: left;border-radius:20px;margin:20px; padding: 20px;">
+            <h2>🗺️ Image Map</h2>
+    <p>Kita bisa membuat gambar yang memiliki area klik berbeda-beda:</p>
+    
+    <img src="https://exampllee.vercel.app/assets/F16.jpg" alt="Laptop, HP, dan Kopi" style="width: 250px; border-radius:20px" usemap="#workplace_map">
+<p>Coba klik bagian komputer atau cangkir kopi di gambar di atas!</p>
+
+    <map name="workplace_map">
+        <area shape="rect" coords="50, 50, 450, 400" alt="Komputer" href="komputer_page.html">
+        
+        <area shape="circle" coords="650, 350, 50" alt="Cangkir Kopi" href="kopi_page.html">
+   </div>
+  <div style="background-image: linear-gradient(rgba(252,255, 255, 0.7));
+    text-align: left;border-radius:20px;margin:20px; padding: 20px;">
+    </map>
+    <h2>📊 HTML Tables</h2>
+    <p>Tabel digunakan untuk menampilkan data baris dan kolom:</p>
+    
+    <table style="width:100%;border-collapse:collapse;text-align:center;font-size:16px;">
+        <thead>
+            <tr style="background-color:#4f90c6;color:white;">
+                <td colspan="3" class="table-title">Data Mahasiswa SI</td>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Minat</th>
+            </tr>
+          
+        </thead>
+        <tbody>
+            <tr>
+                <td>rival</td>
+                <td>0110125090</td>
+                <td>Web Development</td>
+            </tr>
+            <tr>
+                <td>Aim</td>
+                <td>0110125042</td>
+                <td>UI/UX Design</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="footer-row">Jumlah Mahasiswa Aktif: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+  </div>
+    <hr>
+  <div style="background-image: linear-gradient(rgba(252,255, 255, 0.7));
+    text-align: left;border-radius:20px;margin:20px; padding: 20px;">
+    <h3>📋 HTML Lists</h3>
+
+  <p><strong>Unordered List (daftar tanpa urutan):</strong></p>
+  <ul>
+    <li>Analisis Sistem</li>
+    <li>Desain Database</li>
+    <li>Pemrograman Web</li>
+  </ul>
+  <p><strong>Ordered List (daftar berurutan):</strong></p>
+  <ol>
+    <li>Belajar HTML</li>
+    <li>Belajar CSS</li>
+    <li>Belajar JavaScript</li>
+  </ol>
+  <p><strong>Description List:</strong></p>
+  <dl>
+    <dt><strong>HTML</strong></dt>
+    <dd>Bahasa untuk membuat struktur web.</dd>
+    <dt><strong>CSS</strong></dt>
+    <dd>Bahasa untuk memperindah tampilan web.</dd>
+    <dt><strong>JavaScript</strong></dt>
+    <dd>Bahasa untuk membuat web menjadi interaktif.</dd>
+  </dl>
+  <hr>
+ <div class="footer">
+    © 2025 STT Nurul Fikri — Jago IT, Berkarakter
+  </div>
 </body>
 </html>
