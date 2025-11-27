@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript: Inline, internal </title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #f4f4f4;
+      line-height: 1.6;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    button {
+      padding: 10px 18px;
+      margin: 6px;
+      font-size: 15px;
+      cursor: pointer;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 6px;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    #box {
+      margin-top: 10px;
+    }
+    hr {
+      margin: 30px 0;
+    }
+  </style>
+
+    <script>
+        function ubahText() {
+            document.getElementById("judul").innerHTML = "Text telah diubah!";
+        }
+
+        function ubahWarna() {
+            document.getElementById("judul").style.color = "blue";
+        }
+    </script>
+</head>
+<body>
+    <h2>praktik inline  JavaScript</h2>
+    <button onclick="alert('hallo, saya belajar javascript!')">kilck saya (oneclick)</button>
+
+    <button onmouseover="alert('mouse sedang berada diatas tombol')">Arahkan mouse(onemouseover)</button>
+
+    <button ondblclick="alert('tombol di klick dua kali!')">Klick dua kali(ondblclick)</button>
+
+    <hr>
+
+    <h2>praktik internal  javascript</h2>
+    
+    <h3 id="judul">Text Awal</h3>
+
+    <button onclick="ubahText()">Ubah Text</button>
+    <button onclick="ubahWarna()">Ubah warna </button>
+</body>
+</html>
